@@ -1,18 +1,26 @@
 package main
 
-import(
-	"fmt"
+import (
+	"log"
 	"net/http"
 
+	"apiserver/router"
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
 
-	http.HandleFunc("/",func(w http.ResponseWriter,r *http.Request){
-		_, _ = fmt.Fprintf(w, "Welcome to my website！")
-	})
-	fs := http.FileServer(http.Dir("static/"))
-	http.Handle("/static/",http.StripPrefix("/static/",fs))
+	//创建Gin
+	g := gin.New()
+	//
+	middlewares := []gin.HandlerFunc{}
 
-	_ = http.ListenAndServe(":80", nil)
+	router.Load(
+
+		g,
+
+		middlewares...,
+	)
+	log.Printf("Start to listening the incoming requests on http address: %s", ":8080")
+	log.Printf(http.ListenAndServe(":8080", g).Error())
 }

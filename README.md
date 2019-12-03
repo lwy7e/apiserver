@@ -1,4 +1,6 @@
-## 目录结构
+## 基于 Go 语言Gin 构建的 RESTful API 服务
+
+#### 目录结构
 
 ```
 ├── admin.sh                     # 进程的start|stop|status|restart控制文件
@@ -70,4 +72,20 @@
 
 
 
+```
+
+
+### 进入 apiserver 目录编译源代码
+
+```
+$ cd apiserver
+$ gofmt -w .   
+$ go tool vet .
+$ go build -v .
+
+```
+
+
+```
+./apiserver.exe
 ```
