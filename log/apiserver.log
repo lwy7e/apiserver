@@ -1,0 +1,6 @@
+{"level":"INFO","timestamp":"2019-12-14 17:46:44.365","file":"apiserver/main.go:56","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-12-14 17:46:44.867","file":"apiserver/main.go:53","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-12-14 17:52:46.457","file":"apiserver/main.go:56","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-12-14 17:52:46.960","file":"apiserver/main.go:53","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-12-14 17:57:26.097","file":"apiserver/main.go:58","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-12-14 17:57:26.600","file":"apiserver/main.go:55","msg":"The router has been deployed successfully."}
