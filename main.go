@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"apiserver/config"
+	"apiserver/model"
 	"apiserver/router"
 
 	"github.com/gin-gonic/gin"
@@ -46,6 +47,10 @@ func main() {
 		// Middlwares.
 		middlewares...,
 	)
+
+	//init db
+	model.DB.Init()
+	defer model.DB.Close()
 
 	// Ping the server to make sure the router is working.
 	go func() {
