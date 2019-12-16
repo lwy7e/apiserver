@@ -4,3 +4,21 @@
 {"level":"INFO","timestamp":"2019-12-14 17:52:46.960","file":"apiserver/main.go:53","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2019-12-14 17:57:26.097","file":"apiserver/main.go:58","msg":"Start to listening the incoming requests on http address: :8888"}
 {"level":"INFO","timestamp":"2019-12-14 17:57:26.600","file":"apiserver/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-12-16 17:37:28.107","file":"apiserver/main.go:63","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-12-16 17:37:28.609","file":"apiserver/main.go:60","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:09.756","file":"config/config.go:73","msg":"Config file changed: D:\\go_works\\src\\apiserver\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-12-16 17:38:09.757","file":"config/config.go:73","msg":"Config file changed: D:\\go_works\\src\\apiserver\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2019-12-16 17:38:17.997","file":"apiserver/main.go:63","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-12-16 17:38:20.000","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:23.002","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:26.005","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:29.007","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:32.016","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:35.020","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:38.022","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:41.025","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:44.030","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2019-12-16 17:38:47.035","file":"apiserver/main.go:77","msg":"Waiting for the router, retry in 1 second."}
+{"level":"FATAL","timestamp":"2019-12-16 17:38:48.036","file":"apiserver/main.go:58","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 54 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc000288960, 0xc0002b5620, 0x2, 0x2, 0x4, 0xc18602, 0x42, 0xcfc8c0, 0xc0002b3300, 0x0, ...)\n\tD:/Works/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:135 +0x8cc\ngithub.com/lexkong/log/lager.(*logger).log(0xc000288960, 0x4, 0xc18602, 0x42, 0xcfc8c0, 0xc0002b3300, 0x0, 0x0, 0x0)\n\tD:/Works/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:123 +0xe0\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc000288960, 0xc18602, 0x42, 0xcfc8c0, 0xc0002b3300, 0x0, 0x0, 0x0)\n\tD:/Works/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:197 +0x8a\ngithub.com/lexkong/log.Fatal(...)\n\tD:/Works/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/st_lager.go:162\nmain.main.func1()\n\tD:/go_works/src/apiserver/main.go:58 +0xcc\ncreated by main.main\n\tD:/go_works/src/apiserver/main.go:56 +0x1c7\n"}}
+{"level":"INFO","timestamp":"2019-12-16 17:40:26.949","file":"apiserver/main.go:63","msg":"Start to listening the incoming requests on http address: :8888"}
+{"level":"INFO","timestamp":"2019-12-16 17:40:27.451","file":"apiserver/main.go:60","msg":"The router has been deployed successfully."}
